@@ -1,71 +1,129 @@
-# Getting Started with Create React App
+🧮 CASIO-Style Calculator (React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A feature-rich calculator built with React, inspired by the classic CASIO desktop calculators.
+This project focuses on realistic UI design, keyboard interaction, and clean component-based architecture.
 
-## Available Scripts
+✨ Features
 
-In the project directory, you can run:
+🎨 CASIO-Inspired Interface
 
-### `npm start`
+Boxed calculator body with borders
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Solar panel design
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+LCD-style display
 
-### `npm test`
+Physical, pressable buttons
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+⌨️ Full Keyboard Support
 
-### `npm run build`
+Numbers 0–9
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Operators + − × ÷
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Enter → Calculate
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Backspace → Delete last digit
 
-### `npm run eject`
+Esc → Clear display
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+💾 Memory Functions
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+MC – Memory Clear
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+MR – Memory Recall
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+M+ – Add to Memory
 
-## Learn More
+M− – Subtract from Memory
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🧩 Reusable Components
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Button component
 
-### Code Splitting
+Display component
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+⚛️ React Hooks
 
-### Analyzing the Bundle Size
+useState for state management
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+useEffect for keyboard event handling
 
-### Making a Progressive Web App
+🚀 Built using Create React App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+🛠️ Tech Stack
 
-### Advanced Configuration
+React (Functional Components)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+JavaScript (ES6+)
 
-### Deployment
+CSS3 (Custom styling, no UI libraries)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Create React App
 
-### `npm run build` fails to minify
+📂 Project Structure
+src/
+ ├── components/
+ │   ├── Button.jsx
+ │   └── Display.jsx
+ ├── App.js
+ ├── App.css
+ └── index.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# calculator-react" 
+🚀 Getting Started
+1️⃣ Clone the repository
+git clone https://github.com/your-username/calculator-react.git
+
+2️⃣ Navigate into the project
+cd calculator-react
+
+3️⃣ Install dependencies
+npm install
+
+4️⃣ Run the app
+npm start
+
+
+Open 👉 http://localhost:3000
+ in your browser.
+
+🎮 Keyboard Controls
+Key	Action
+0–9	Enter numbers
++ - * /	Operators
+.	Decimal
+Enter	Calculate
+Backspace	Delete last input
+Esc	Clear display
+📸 UI Preview
+
+CASIO-style calculator with:
+
+Left-aligned brand label
+
+Centered solar panel
+
+LCD display
+
+Physical button depth
+
+(Add screenshots here if desired)
+
+⚠️ Note on eval()
+
+This project uses eval() only for learning and demonstration purposes.
+For production-level applications, a custom expression parser should be used to ensure safety.
+
+🌱 Future Enhancements
+
+❌ Replace eval() with safe expression parsing
+
+🔢 Add 00 key
+
+🔊 Button click sound
+
+🎨 Theme switch (light / dark)
+
+📱 Mobile-first responsiveness
+
+🧠 Advanced memory features
